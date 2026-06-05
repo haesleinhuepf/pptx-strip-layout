@@ -7,9 +7,10 @@ name = "pptx-strip-layout"
 version = "0.1.0"
 description = "Strip PowerPoint layouts and normalize slide styling"
 readme = "README.md"
+license = "BSD-3-Clause"
 requires-python = ">=3.9"
 authors = [
-  { name = "Your Name" }
+  { name = "Robert Haase", email = "robert.haase@uni-leipzig.de" }
 ]
 dependencies = [
   "python-pptx>=1.0.2",
