@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pptx-strip-layout"
+version = "0.1.0"
+description = "Strip PowerPoint layouts and normalize slide styling"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Your Name" }
+]
+dependencies = [
+  "python-pptx>=1.0.2",
+  "Pillow>=10.0.0"
+]
+
+[project.scripts]
+pptx-strip-layout = "pptx_strip_layout.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

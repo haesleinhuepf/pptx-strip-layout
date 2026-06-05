@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/pptx_strip_layout/__init__.py
+src/pptx_strip_layout/__main__.py
+src/pptx_strip_layout/cli.py
+src/pptx_strip_layout/processor.py
+src/pptx_strip_layout.egg-info/PKG-INFO
+src/pptx_strip_layout.egg-info/SOURCES.txt
+src/pptx_strip_layout.egg-info/dependency_links.txt
+src/pptx_strip_layout.egg-info/entry_points.txt
+src/pptx_strip_layout.egg-info/requires.txt
+src/pptx_strip_layout.egg-info/top_level.txt
