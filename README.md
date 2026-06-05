@@ -10,6 +10,8 @@
 ## Installation
 
 ```bash
+git clone https://github.com/haesleinhuepf/pptx-strip-layout
+cd pptx-strip-layout
 pip install .
 ```
 
